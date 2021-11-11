@@ -2,8 +2,13 @@ package labbook_1;
 
 import java.util.Scanner;
 
-public class Exercise_1 { // Create a method to find the sum of the cubes of the digits of an n digit
-							// number
+/**
+ * 
+ * // Create a method to find the sum of the cubes of the digits of an n digit number
+ *
+ */
+
+public class Exercise_1 { 
 
 	public static void main(String[] args) {
 
@@ -27,7 +32,7 @@ public class Exercise_1 { // Create a method to find the sum of the cubes of the
 
 		}
 		System.out.println(sum);
-
+		sc.close();
 	}
 
 }

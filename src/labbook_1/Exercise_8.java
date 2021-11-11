@@ -1,6 +1,12 @@
 package labbook_1;
 
-public class Exercise_8 {   //Create a method to check if a number is a power of two or not
+/**
+ * 
+ * Create a method to check if a number is a power of two or not
+ *
+ */
+
+public class Exercise_8 {  
 
 	public static void main(String[] args) {
 		

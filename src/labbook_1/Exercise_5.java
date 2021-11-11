@@ -2,8 +2,13 @@ package labbook_1;
 
 import java.util.Scanner;
 
-public class Exercise_5 {   //Create a class with a method which can calculate the sum of 
-							//first n natural numbers which are divisible by 3 or 5.
+/**
+ * 
+ *Create a class with a method which can calculate the sum of first n natural numbers which are divisible by 3 or 5.
+ *
+ */
+
+public class Exercise_5 {   
 
 	public static void main (String[] args) {
 		
@@ -15,6 +20,8 @@ public class Exercise_5 {   //Create a class with a method which can calculate t
 		int sum = calSum (n);
 		
 		System.out.println("sum = "+sum);
+		
+		sc.close();
 		
 	}
       public static int calSum (int n)

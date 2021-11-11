@@ -2,7 +2,16 @@ package labbook_1;
 
 import java.util.Scanner;
 
-public class Exercise_2 {  //Write a java program that simulates a traffic light
+
+/**
+ * 
+ * Write a java program that simulates a traffic light. 
+ * The program lets the user select one of three lights: red, yellow, or green with radio buttons. 
+ * On entering the choice, an appropriate message with “stop” or “ready” or “go” should appear in the console .
+ * Initially there is no message shown.
+ *
+ */
+public class Exercise_2 {  
 
 	public static void main(String[] args) {
 		
@@ -40,6 +49,8 @@ public class Exercise_2 {  //Write a java program that simulates a traffic light
 	}
 		System.out.println("do you want to continue press y/n");
 		ss=sc.next();
+		
+		sc.close();
 		}
 }
 	
@@ -54,4 +65,6 @@ public class Exercise_2 {  //Write a java program that simulates a traffic light
 	void green() {
 		System.out.println("GO");
 	}
+	
+	
 }

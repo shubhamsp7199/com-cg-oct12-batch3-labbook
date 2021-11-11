@@ -2,9 +2,14 @@ package labbook_1;
 
 import java.util.Scanner;
 
-public class Exercise_4 {   //Write a Java program that prompts the user for an integer and then prints 
-							//out all the prime numbers up to that Integer
+/**
+ * 
+ * Write a Java program that prompts the user for an integer and then prints out all the prime numbers up to that Integer?
+ *
+ */
 
+public class Exercise_4 {   
+	
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -27,7 +32,8 @@ public class Exercise_4 {   //Write a Java program that prompts the user for an 
 			}
 
 		}
+		sc.close();
 
-	}
+	}	
 
 }

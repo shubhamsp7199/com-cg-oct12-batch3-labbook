@@ -2,12 +2,18 @@ package labbook_1;
 
 import java.util.Scanner;
 
-public class Exercise_7 {     //Create a method to check if a number is an increasing number
+/**
+ * 
+ * Create a method to check if a number is an increasing number
+ *
+ */
+
+public class Exercise_7 {    
 
 	public static void main(String[] args) {
 	       
-		int num;
-	       boolean b = false;
+			int num;
+			boolean b = false;
    
 	       Scanner sc = new Scanner(System.in);
 	       System.out.println("Enter a number : ");
@@ -35,5 +41,7 @@ public class Exercise_7 {     //Create a method to check if a number is an incre
 	       }else{
 	           System.out.println("Digits are in increasing order");
 	       }
+	       
+	       sc.close();
 	    }
 }

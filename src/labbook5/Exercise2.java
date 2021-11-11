@@ -2,6 +2,15 @@ package labbook5;
 
 import java.util.Scanner;
 
+
+/**
+ * 
+ *Write a Java Program to validate the full name of an employee. 
+ *Create and throw a user defined exception if firstName and lastName is blank.
+ *
+ */
+
+
 class NameCannotBeBlank extends Exception {
 	NameCannotBeBlank(String Message) {
 		super(Message);

@@ -1,4 +1,4 @@
-package labbook5;
+package labbook_5;
 
 import java.util.Scanner;
 

@@ -2,6 +2,12 @@ package labbook_9;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Write a lambda expression which accepts x and y numbers and return xy.
+ *
+ */
+
 public class Exercise1 {
 	public static void main(String[] args) {
 

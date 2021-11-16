@@ -2,6 +2,13 @@ package labbook_9;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * : Write a method that uses lambda expression to accept username and password and return true or false. 
+ * (Hint: Use any custom values for username and password for authentication)
+ *
+ */
+
 public class Exercise3 {
    public static void main(String[] args) {
 	Demo3 obj = ()->{
